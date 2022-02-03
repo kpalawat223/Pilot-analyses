@@ -1,0 +1,31 @@
+---
+title: "DataReproducabilityNotes"
+author: "Kunal Palawat"
+date: "2/3/2022"
+output: html_document
+---
+
+
+2/2/22
+We are learning about shell and terminal. Here are a bunch of commands we learned.
+Shell commands:
+ls  lists files in working directory
+ls -F lists files with information on folders versus files
+"working directory" - your current location in your file system, changes often
+pwd prints working directory as absolute file path
+man ls or ls --help to look for the help files for the command ls , enter or up and down to navigate, q to quit/escape
+ls -F Desktop Look inside a folder inside working directory
+cd change directory to home directory
+"home directory" has a specific location to your computer/login
+cd Downloads change directory to  downloads folder
+cd ..  change directory up one level
+cd ../.. change directory up two levels
+cd ../Desktop change directory up one level and down into Desktop folder
+"absolute file path" starts from root directory, begins with a forward slash
+"relative file path" starts from working directory, does not begin with forward slash
+prompt, command, option (optional), argument (optional depending on command)
+ls *.png list files that end in .png
+mv headshot.png ../headshot.png move headshot.png up one directory
+mkdir newfolder make a new folder named 'newfolder'
+
+
